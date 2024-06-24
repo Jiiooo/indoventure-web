@@ -1,6 +1,9 @@
+// postcss.config.js
 export default {
   plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
+    // daftar plugin postcss
+    // misalnya:
+    'autoprefixer': {},
+    'postcss-nested': {}
+  }
+};
