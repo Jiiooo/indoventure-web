@@ -1,8 +1,9 @@
 {
   "name": "indo-website",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "dependencies": {
+    "react": "^17.0.2",
+    "vite": "^2.0.0"
  {
   "scripts": {
     "dev": "vite",
